@@ -12,3 +12,4 @@ const devnet = "https://neat-twilight-seed.solana-devnet.quiknode.pro/f5b58eab34
   console.log(`public key: ${kp.publicKey.toBase58()}`);
   await invokeProgram(con, kp);
 })();
+
