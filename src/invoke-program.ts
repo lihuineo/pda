@@ -3,7 +3,6 @@ import * as anchor from "@coral-xyz/anchor";
 import * as borsh from "@project-serum/borsh";
 import { Buffer } from "buffer";
 
-// const programId = new web3.PublicKey("673Y5fsTiT6RHuri4Jh7cU2j33RLwDydTAXTMV6HaZuj");
 const programId = new web3.PublicKey("AxhGGBeAQc1SumsczWjgUxbbhhZR7FsTAtfoc5Ay6oaw");
 const invokeInstructionLayout = borsh.struct([borsh.u8("newAccountBumpSeed"), borsh.u64("space")]);
 
